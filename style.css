@@ -263,12 +263,13 @@ textarea:-ms-input-placeholder, input:-ms-input-placeholder {
 
 .thread {
 	float: left;
-	width: 90%;
+	width: 85%;
 	min-height: 280px;
 	background-color: rgb(20, 59, 59);
 	border-radius: 5px;
 	padding: 5%;
 	box-shadow: 0 0 15px rgb(20, 59, 59);
+	margin: 18px;
 	margin-bottom: 50px;
 	cursor: pointer;
 }
