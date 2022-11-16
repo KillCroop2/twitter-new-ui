@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Twitter</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+	<script src="autogrow.js"></script>
+	<script language="javascript" src="jquery.maxlength.js"></script>
+</head>
+<body>
+	<section class="menu-selection">
+		<ul class="list-selection">
+			<a href="#" class="nav-header"><img src="icons/twitter.svg"/>Twitter</a>
+			<li class="list-item"><a href="#" class="list-link active"><img src="icons/home.svg"/>Home</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/search.svg"/>Explore</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/bell.svg"/>Notifications</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/mail.svg"/>Messages</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/bookmark.svg"/>Bookmarks</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/list.svg"/>Lists</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/user.svg"/>Profile</a></li>
+			<li class="list-item"><a href="#" class="list-link"><img src="icons/more.svg"/>More</a></li>
+			<li id="tweet" class="list-item"><a href="#" class="tweet"><div id="mov"><img id="tweet-icon" src="icons/twitter.svg"/><span id="text">Tweet</span></div></a></li>
+		</ul>
+	</section>
+	<div class="wrapper">
+		<section id="feed" class="page-elem">
+			<div class="post">
+				<h2 class="post-title">Home</h2>
+				<form class="post-form">
+					<textarea maxlength="280" placeholder="What's happening?"></textarea>
+					
+					<input type="submit" value="Tweet">
+				</form>
+			</div>
+
+			<div class="threads">
+				<h3 class="right-f-title">Your feed</h3>
+
+				<!-- Example thread -->
+				<div class="thread">
+					<h3 class="thread-title">Username <span class="date">2022/11/16 ~ 19:32</span></h3>
+					<p class="thread-text">
+						In this text im going to showcase what this amazing website can do!
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet commodo sapien. Curabitur a massa vitae leo convallis rhoncus eu sed nibh. Nullam dapibus lacus sit amet libero pretium vehicula. Aenean lacinia consequat massa eu semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris dapibus, purus convallis viverra viverra, ex nisl ultrices augue, nec lobortis lacus augue sed libero. Donec varius viverra ullamcorper. Maecenas aliquam cursus dapibus. Phasellus dignissim fermentum volutpat. Pellentesque at eros ac justo lacinia convallis tempor ac risus. Nam vitae porta felis. Pellentesque vel eros semper, placerat dolor a, commodo dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed maximus pharetra dui, sit amet sagittis libero laoreet eget. Aliquam erat volutpat. Donec laoreet elit dui, at euismod est vehicula vulputate.
+					</p>
+					<div class="reaction-bar">
+						<ul class="reactions">
+							<li class="reaction-comment"><button class="action-comment"><i class="fa-light fa-comment"></i></button></li>
+							<li class="reaction-reshare"><button class="action-reshare"><i class="fa-light fa-arrows-retweet"></i></button></li>
+							<li class="reaction-like"><button class="action-like"><i class="fa-light fa-heart"></i></button></li>
+							<li class="reaction-share"><button class="action-share"><i class="fa-light fa-share"></i></button></li>
+						</ul>
+					</div>
+				</div>
+				<!-- Example thread -->
+				<div class="thread">
+					<h3 class="thread-title">Username <span class="date">2022/11/16 ~ 19:32</span></h3>
+					<p class="thread-text">
+						In this text im going to showcase what this amazing website can do!
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet commodo sapien. Curabitur a massa vitae leo convallis rhoncus eu sed nibh. Nullam dapibus lacus sit amet libero pretium vehicula. Aenean lacinia consequat massa eu semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris dapibus, purus convallis viverra viverra, ex nisl ultrices augue, nec lobortis lacus augue sed libero. Donec varius viverra ullamcorper. Maecenas aliquam cursus dapibus. Phasellus dignissim fermentum volutpat. Pellentesque at eros ac justo lacinia convallis tempor ac risus. Nam vitae porta felis. Pellentesque vel eros semper, placerat dolor a, commodo dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed maximus pharetra dui, sit amet sagittis libero laoreet eget. Aliquam erat volutpat. Donec laoreet elit dui, at euismod est vehicula vulputate.
+					</p>
+					<div class="reaction-bar">
+						<ul class="reactions">
+							<li class="reaction-comment"><button class="action-comment"><i class="fa-light fa-comment"></i></button></li>
+							<li class="reaction-reshare"><button class="action-reshare"><i class="fa-light fa-arrows-retweet"></i></button></li>
+							<li class="reaction-like"><button class="action-like"><i class="fa-light fa-heart"></i></button></li>
+							<li class="reaction-share"><button class="action-share"><i class="fa-light fa-share"></i></button></li>
+						</ul>
+					</div>
+				</div>
+				<!-- Example thread -->
+				<div class="thread">
+					<h3 class="thread-title">Username <span class="date">2022/11/16 ~ 19:32</span></h3>
+					<p class="thread-text">
+						In this text im going to showcase what this amazing website can do!
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet commodo sapien. Curabitur a massa vitae leo convallis rhoncus eu sed nibh. Nullam dapibus lacus sit amet libero pretium vehicula. Aenean lacinia consequat massa eu semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris dapibus, purus convallis viverra viverra, ex nisl ultrices augue, nec lobortis lacus augue sed libero. Donec varius viverra ullamcorper. Maecenas aliquam cursus dapibus. Phasellus dignissim fermentum volutpat. Pellentesque at eros ac justo lacinia convallis tempor ac risus. Nam vitae porta felis. Pellentesque vel eros semper, placerat dolor a, commodo dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed maximus pharetra dui, sit amet sagittis libero laoreet eget. Aliquam erat volutpat. Donec laoreet elit dui, at euismod est vehicula vulputate.
+					</p>
+					<div class="reaction-bar">
+						<ul class="reactions">
+							<li class="reaction-comment"><button class="action-comment"><i class="fa-light fa-comment"></i></button></li>
+							<li class="reaction-reshare"><button class="action-reshare"><i class="fa-light fa-arrows-retweet"></i></button></li>
+							<li class="reaction-like"><button class="action-like"><i class="fa-light fa-heart"></i></button></li>
+							<li class="reaction-share"><button class="action-share"><i class="fa-light fa-share"></i></button></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section id="misc" class="page-elem">
+			<form class="search-form">
+				<input type="text" maxlength="40" placeholder="Search Twitter">
+			</form>
+
+			<div class="trending">
+				<h3 class="trends-title">Trends for you</h3>
+
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Twitter UI</h2>
+					<h3 class="trending-topic">Design · 14,646 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Grand Theft Auto</h2>
+					<h3 class="trending-topic">Gaming · 1,234 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+				<!-- Example trending item -->
+				<div class="trending-item">
+					<h2 class="trending-title">Hungary</h2>
+					<h3 class="trending-topic">Countries · 15,353 Tweets</h3>
+				</div>
+
+
+			</div>
+		</section>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
